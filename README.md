@@ -38,14 +38,15 @@ Estrutura do Projeto
 
 TaskManager/
 
-│
 ├── Program.cs          # Ponto de entrada e interface CLI
 
 ├── Models/
-│   └── TaskItem.cs     # Modelo de dados da tarefa
+│   
+└── TaskItem.cs     # Modelo de dados da tarefa
 
 ├── Services/
-│   └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
+│   
+└── TaskService.cs  # Lógica de manipulação e persistência de tarefas
 
 └── tasks.json          # Arquivo gerado automaticamente para armazenar dados
 
