@@ -35,21 +35,18 @@ git clone git@github.com:Leinad0202/TaskManager.git
 
     Use o menu interativo para gerenciar suas tarefas.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
+```plaintext
 TaskManager/
-
+│
 ├── Program.cs          # Ponto de entrada e interface CLI
-
 ├── Models/
-  │   
-  └── TaskItem.cs     # Modelo de dados da tarefa
-
+│   └── TaskItem.cs     # Modelo de dados da tarefa
 ├── Services/
-  │   
-  └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
-
+│   └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
 └── tasks.json          # Arquivo gerado automaticamente para armazenar dados
+```
 
 
 Requisitos
