@@ -20,9 +20,9 @@ Gerenciador simples de tarefas desenvolvido em C# com interface de linha de coma
 
 1. Clone este repositório:
 
-   ```bash
-   git clone git@github.com:Leinad0202/TaskManager.git
-
+```bash
+git clone git@github.com:Leinad0202/TaskManager.git
+``
 Entre na pasta do projeto:
   ```bash
   cd TaskManager
@@ -43,6 +43,7 @@ TaskManager/
 ├── Services/
 │   └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
 └── tasks.json          # Arquivo gerado automaticamente para armazenar dados
+
 
 Requisitos
 
