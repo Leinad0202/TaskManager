@@ -22,7 +22,8 @@ Gerenciador simples de tarefas desenvolvido em C# com interface de linha de coma
 
 ```bash
 git clone git@github.com:Leinad0202/TaskManager.git
-``
+```
+
 Entre na pasta do projeto:
   ```bash
   cd TaskManager
@@ -36,12 +37,16 @@ Compile e execute o projeto:
 Estrutura do Projeto
 
 TaskManager/
+
 │
 ├── Program.cs          # Ponto de entrada e interface CLI
+
 ├── Models/
 │   └── TaskItem.cs     # Modelo de dados da tarefa
+
 ├── Services/
 │   └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
+
 └── tasks.json          # Arquivo gerado automaticamente para armazenar dados
 
 
