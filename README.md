@@ -1,62 +1,62 @@
-# TaskManager - Gerenciador Básico de Tarefas em C#
+# TaskManager - Basic Task Manager in C#
 
-Gerenciador simples de tarefas desenvolvido em C# com interface de linha de comando (CLI) e persistência em arquivo JSON.
+Simple task manager developed in C# with a command-line interface (CLI) and JSON file persistence.
 
-## Funcionalidades
+## Features
 
-- Listar todas as tarefas cadastradas.
-- Adicionar novas tarefas.
-- Atualizar título e status (pendente/concluída) das tarefas existentes.
-- Remover tarefas pelo ID.
-- Persistência dos dados em arquivo JSON (`tasks.json`).
+- List all registered tasks.
+- Add new tasks.
+- Update the title and status (pending/completed) of existing tasks.
+- Remove tasks by ID.
+- Persist data in a JSON file (`tasks.json`).
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - C# (.NET 7/8)
-- Aplicação Console (CLI)
-- Manipulação de arquivos JSON com `System.Text.Json`
+- Console Application (CLI)
+- Manipulating JSON files with `System.Text.Json`
 
-## Como Usar
+## How to Use
 
-1. Clone este repositório:
+1. Clone this repository:
 
 ```bash
 git clone git@github.com:Leinad0202/TaskManager.git
 ```
 
-2. Entre na pasta do projeto:
+2. Go to the project folder:
   ```bash
   cd TaskManager
 ```
-3. Compile e execute o projeto:
+3. Compile and run the project:
 ```bash
     dotnet run
 ```
 
-    Use o menu interativo para gerenciar suas tarefas.
+    Use the interactive menu to manage your tasks.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```plaintext
 TaskManager/
 │
-├── Program.cs          # Ponto de entrada e interface CLI
+├── Program.cs # Entry point and CLI interface
 ├── Models/
-│   └── TaskItem.cs     # Modelo de dados da tarefa
+│ └── TaskItem.cs # Task data model
 ├── Services/
-│   └── TaskService.cs  # Lógica de manipulação e persistência de tarefas
-└── tasks.json          # Arquivo gerado automaticamente para armazenar dados
+│ └── TaskService.cs # Task handling and persistence logic
+└── tasks.json # Automatically generated file for storing data
 ```
 
 
-Requisitos
+Requirements
 
-    .NET SDK 7 ou 8 instalado
+    .NET SDK 7 or 8 installed
 
-    Compatível com Linux, Windows e macOS
+    Compatible with Linux, Windows, and macOS
 
-Observações
+Notes
 
-    O arquivo tasks.json será criado automaticamente na primeira execução para armazenar as tarefas.
+    The tasks.json file will be automatically created on the first run to store tasks.
 
-    Projeto focado em demonstrar conceitos básicos de C# e manipulação de dados em arquivo
+    This project focuses on demonstrating basic C# concepts and file data manipulation.
